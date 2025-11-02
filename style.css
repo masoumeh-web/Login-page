@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #080710;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+input,button{
+    font-family: inherit;
+    border: none;
+    outline: 0;
+}
+.wrapper {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.shape {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.shape_0ne {
+  background: linear-gradient(#0d47a1, #42a5f5);
+  top: -52px;
+  left: -74px;
+}
+.shape_two {
+  background: linear-gradient(45deg, #e65100, #ffca28);
+  bottom: -64px;
+  right: -92px;
+}
+
+.form {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  padding: 50px 35px 35px 35px;
+  border: 2px solid rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.form_title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.form_input-wrapper{
+    margin-bottom: 24px;
+}
+.form_label{
+    font-size: 16px;   
+}
+
+.form_input{
+    font-size: 16px;
+    display: block;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    font-weight: 300;
+    padding: 0 10px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.form_input::placeholder{
+    color: #e5e5e5;
+}
+
+.form_button{
+    background-color: #fff;
+    color: #080710;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-align: center;
+    padding: 15px 0;
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 38px;
+    font-weight: bold;
+}
